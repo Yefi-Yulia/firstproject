@@ -1,0 +1,59 @@
+.resume{
+    background: no-repeat 80% url(../img/hyre_me.png);
+    background-position: left -80px top 130px;
+    &__title {
+        text-align: center;
+        padding-top: 180px;
+        padding-bottom: 90px;
+    }
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__item{
+        width: 258px;
+        align-items: center;
+        text-align: center;
+        &-img{
+            position: relative;
+            display: flex;
+            margin: 0 auto;
+            width: 198px;
+            height: 198px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(116, 86, 255, 0.1);
+            border: 1px solid #7456FF;
+            border-radius: 100%;
+            // :after{
+            //     content: "";
+            //     position: absolute;
+            //     top: 0;
+            //     width: 238px;
+            //     height: 238px;
+            //     border: 1px solid #fff;
+            //     border-radius: 100%;
+            // }
+            img{
+                display: block;
+            }
+        }
+        &-subtitle{
+            padding-top: 67px;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 42px;
+            color: #fff;
+        }
+        &-text{
+            padding-top: 20px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #999;
+        }
+    }
+
+}

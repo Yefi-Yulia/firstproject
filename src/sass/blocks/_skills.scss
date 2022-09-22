@@ -1,0 +1,30 @@
+.skills {
+    background: no-repeat 80% url(../img/skills.png);
+    background-position: left -830px top 130px;
+    &__subtitle {
+        text-align: center;
+        padding-top: 180px;
+        padding-bottom: 90px;
+    }
+    &__items{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: rows;
+        justify-content: space-between;
+    }
+    &__img{
+        width: 182px;
+        height: 182px;
+        margin: 20px;
+        border: 4px solid #414040;
+        background-color: #323131;
+        border-radius: 30px;
+        img{
+            display: block;
+            padding-top: 33px;
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+    
+}

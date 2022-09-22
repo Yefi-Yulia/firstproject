@@ -1,0 +1,51 @@
+.projects{
+    background: no-repeat 80% url(../img/my_project.png);
+    background-position: left -80px top 130px;
+    background-size: cover;
+    &__title{
+        text-align: center;
+        padding-top: 190px;
+        padding-bottom: 90px;
+    }
+
+
+    &__item{
+        padding: 50px 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #131313;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 20px;
+        &_margin{
+            margin-top: 90px;
+        }
+        
+        &-text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #999;
+        }
+        &-btn{
+            margin-right: 30px;
+        }
+        
+    }
+    &__btn {
+        img {
+            width: 17px;
+            padding-bottom: 2px;
+            margin-right: 5px;
+        }
+    }
+    
+    &__img{
+        display: block;
+        width: 320px;
+        height: 190px;
+        border-radius: 10px;
+    }
+}
